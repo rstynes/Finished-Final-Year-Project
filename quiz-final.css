@@ -1,0 +1,189 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #3366cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white; /* Setting text color */
+    text-decoration: none;
+    margin-right: 20px; /* Adding margin between links */
+}
+
+nav .left-links {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushing the left links to the left */
+        }
+
+nav .left-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    background-color: transparent; /* Remove background color */
+    padding: 0; /* Remove padding */
+    color: #09080b; /* Change text color on hover */
+}
+
+
+main {
+    padding: 20px;
+}
+
+nav img {
+    margin-right: 20px; /* Adjusted margin */
+    width: 100px;
+    height: auto;
+}
+
+nav .profile-link {
+    position: absolute; /* Position the profile link absolutely */
+    top: 37px; /* Adjust the distance from the top as needed */
+    right: 90px; /* Align the link to the right side */
+    margin-left: auto; /* Pushing the profile link to the far right */
+}
+
+.avatar {
+    position: absolute; /* Position the profile link absolutely */
+    top: 20px; /* Adjust the distance from the top as needed */
+    right: 3px; /* Align the link to the right side */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.username {
+    font-size: 50px;
+    color: black;
+}
+
+.userpoints,
+.correct-answers {
+    font-size: 50px;
+    color: black;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -90px; /* Adjust this value as needed */
+}
+
+.quiz{
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.quiz_user{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.quiz_body{
+    padding: 20px 30px;
+    background-color: rgb(36, 136, 203);
+}
+
+.option_group{
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.option{
+    display: block;
+    width: 300px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+}
+
+.option:hover{
+    cursor: pointer;
+    border: 2px solid #341f97;
+    color: #341f97;
+}
+
+.option.active{
+    background-color: #341f97;
+    color: #fff;
+}
+
+.btn-next{
+    border: none;
+    padding: 15px 35px;
+    background-color: #341f97;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.4s all;
+}
+
+.btn-next:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #000;
+}
+
+.award_icon{
+    display: block;
+    font-size: 300px;
+    color: #fff;
+}
+
+.username, .userpoints{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.border{
+    height: 500px;
+    width: 500px;
+    display: block;
+    justify-content: center;
+    margin: 0px 400px;
+    border-radius: 10px;
+    top: 100px;
+    border-color: transparent;
+}

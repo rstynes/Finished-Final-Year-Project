@@ -1,0 +1,100 @@
+body {
+    background-color: #f0f0f0; 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #3366cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    margin-right: 20px; 
+}
+
+nav .left-links {
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+        }
+
+nav .left-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    background-color: transparent; 
+    padding: 0; 
+    color: #09080b; 
+  }
+
+main {
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-actions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-actions a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-actions a:hover {
+    background-color: #0056b3;
+}
+
+.user-table {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+table td a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

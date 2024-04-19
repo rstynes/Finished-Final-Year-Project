@@ -1,0 +1,112 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #3366cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white; /* Setting text color */
+    text-decoration: none;
+    margin-right: 20px; /* Adding margin between links */
+}
+
+nav .left-links {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushing the left links to the left */
+}
+
+nav .left-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    background-color: transparent; /* Remove background color */
+    padding: 0; /* Remove padding */
+    color: #09080b; /* Change text color on hover */
+}
+
+
+main {
+    padding: 20px;
+}
+
+nav img {
+    margin-right: 20px; /* Adjusted margin */
+    width: 100px;
+    height: auto;
+}
+
+nav .profile-link {
+    position: absolute; /* Position the profile link absolutely */
+    top: 37px; /* Adjust the distance from the top as needed */
+    right: 90px; /* Align the link to the right side */
+    margin-left: auto; /* Pushing the profile link to the far right */
+}
+
+.avatar {
+    position: absolute; /* Position the profile link absolutely */
+    top: 20px; /* Adjust the distance from the top as needed */
+    right: 3px; /* Align the link to the right side */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* CSS styles for the changes in the HTML */
+
+.content-block {
+    padding: 20px; /* Add padding to each content block */
+    background-color: #f0f0f0; /* Set a white background for each content block */
+    margin: 0 auto; /* Center the content blocks horizontally */
+    max-width: 800px; /* Set a maximum width for the content blocks */
+    text-align: justify; /* Justify text for better readability */
+}
+
+.content-block h2 {
+    color: #3366cc; /* Set color for section headings */
+}
+
+.content-block p {
+    line-height: 1.6; /* Set line height for paragraphs */
+}
+
+.video-container {
+    position: relative; /* Set position relative for the video container */
+    width: 100%; /* Set width to 100% */
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.video-container iframe {
+    position: absolute; /* Set position absolute for the iframe */
+    top: 0; /* Set top to 0 */
+    left: 0; /* Set left to 0 */
+    width: 100%; /* Set width to 100% */
+    height: 100%; /* Set height to 100% */
+}
+
+.next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #59a8ee;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}

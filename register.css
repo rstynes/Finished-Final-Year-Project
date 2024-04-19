@@ -1,0 +1,90 @@
+/* Form styling */
+form {
+	margin: auto;
+	width: 80%; /* Adjusted to percentage for responsiveness */
+	max-width: 600px; /* Added max-width for larger screens */
+	height: auto; /* Removed fixed height for flexibility */
+	border: 2px solid #333; /* Darkened border color */
+	background-color: #f4f4f4; /* Lighter background color */
+	padding: 20px;
+	border-radius: 10px; /* Added border-radius for rounded corners */
+  }
+  
+  /* Body styling */
+  body {
+	
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	font-family: Arial, sans-serif; /* Changed font family for better readability */
+  }
+  
+  /* Textarea styling */
+  textarea {
+	width: 100%; /* Adjusted width for responsiveness */
+	height: 120px; /* Slightly increased height */
+	padding: 10px;
+	font-size: 1em; /* Reduced font size for better fit */
+	background-color: #fff; /* Changed background color to white */
+	border: 1px solid #ccc; /* Softened border color */
+	border-radius: 5px;
+	margin-bottom: 20px;
+	resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Input styling */
+  .inputbox input {
+	width: 100%; /* Adjusted width for responsiveness */
+	padding: 10px;
+	font-size: 1em; /* Reduced font size for better fit */
+	background-color: #fff; /* Changed background color to white */
+	border: 1px solid #ccc; /* Softened border color */
+	border-radius: 5px;
+	margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .inputbox label {
+	width: auto; /* Adjusted width for flexibility */
+	display: inline-block;
+	font-size: 1em; /* Reduced font size for better fit */
+	margin-right: 10px; /* Slightly reduced margin for tighter spacing */
+  }
+  
+  /* Padding for different sections */
+  .inputbox,
+  .radiobox,
+  .dropdown,
+  .checkbox1 {
+	padding: 10px; /* Reduced padding for tighter spacing */
+  }
+  
+  /* Button styling */
+  .mybutton {
+	padding: 10px;
+	text-align: center;
+  }
+  
+  .mybutton input[type="submit"] {
+	background-color: #336699; /* Darkened button color */
+	color: #fff;
+	border: none;
+	padding: 12px 24px; /* Increased padding for larger buttons */
+	font-size: 1em; /* Reduced font size for better fit */
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease; /* Added transition for smoother hover effect */
+  }
+  
+  .mybutton input[type="submit"]:hover {
+	background-color: #255580; /* Darkened hover color */
+  }
+  
+  /* Heading styling */
+  h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #336699; /* Darkened heading color */
+	font-size: 1.5em; /* Slightly reduced font size */
+  }
+  

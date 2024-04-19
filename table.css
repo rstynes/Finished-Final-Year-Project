@@ -1,0 +1,185 @@
+/* table.css */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+nav {
+  background-color: #3366cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white; /* Setting text color */
+  text-decoration: none;
+  margin-right: 20px; /* Adding margin between links */
+}
+
+nav .left-links {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Pushing the left links to the left */
+      }
+
+nav .left-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  background-color: transparent; /* Remove background color */
+  padding: 0; /* Remove padding */
+  color: #09080b; /* Change text color on hover */
+}
+
+
+main {
+  padding: 20px;
+}
+
+nav img {
+  margin-right: 20px; /* Adjusted margin */
+  width: 100px;
+  height: auto;
+}
+
+nav .profile-link {
+  position: absolute; /* Position the profile link absolutely */
+  top: 37px; /* Adjust the distance from the top as needed */
+  right: 90px; /* Align the link to the right side */
+  margin-left: auto; /* Pushing the profile link to the far right */
+}
+
+
+.profile-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #3366cc;
+}
+
+.user-details {
+  margin-bottom: 20px;
+}
+
+.user-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-details-table th, .user-details-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-details-table th {
+  background-color: #3366cc;
+  color: white;
+}
+
+.user-details-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-details-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.points-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.points-table th, .points-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.points-table th {
+  background-color: #3366cc;
+  color: white;
+}
+
+.points-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.points-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.avatar {
+  position: absolute; /* Position the profile link absolutely */
+  top: 20px; /* Adjust the distance from the top as needed */
+  right: 3px; /* Align the link to the right side */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.avatar2 {
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.leaderboard-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-table th {
+  background-color: #3366cc;
+  color: white;
+}
+
+.leaderboard-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leaderboard-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+
+
